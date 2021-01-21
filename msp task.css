@@ -3,3 +3,87 @@ body{background-color: #D3D3D3; margin: auto}
 .div2{height: 150px;  background-color: 0099dd;margin-top: -60}
 .p1{text-align: center;font-size: 60px;color: white}
 .main{width: 60%;height: 90%;background-color: white;margin: auto;margin-top: -70px}
+
+form {
+
+        border-radius: 5px;
+        background-color: white;
+        padding: 20px;
+    }
+    input:hover
+    {
+        background-color: whitesmoke; 
+    }
+    input 
+    {   color:black;
+        background-color: white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+
+        padding: 7px 15px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .gender {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 15px; }
+    .gender input {
+        position: absolute;
+        opacity: 0; }
+    .checkmark {
+        position: absolute;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        border-radius: 50%; }
+    .gender:hover input ~ .checkmark {
+        background-color: #ccc; }
+    .gender input:checked ~ .checkmark {
+        background-color: #272c30; }
+    .checkmark:after {
+        content: ""; }
+    .gender input:checked ~ .checkmark:after {
+        display: block; }
+    .gender .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white; }
+        
+    a 
+    {   color:  gray;
+        text-decoration:none  ;
+    }
+    a:hover
+    {
+        color: black;
+        font-size: 15px;
+    }
+
+    button:hover
+    {
+        color: gray ;
+        background-color: white;
+    }
+
+    button
+    {
+        background-color:whitesmoke;
+        color: black;
+        padding: 15px 20px;
+        margin: 8px 0;
+        border: black;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+
