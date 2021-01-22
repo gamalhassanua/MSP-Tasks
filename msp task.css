@@ -25,8 +25,17 @@ form {
             color: green; 
             min-width: 50px; 
             text-align: center; 
-        } 
-
+         } 
+         span
+         {
+             font-size: larger;
+             color: rgb(109, 107, 107);
+          }
+              label 
+          {
+              color: rgb(66, 64, 64);
+              font-size: 18px;
+          }
 
 
 
