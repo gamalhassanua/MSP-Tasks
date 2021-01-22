@@ -3,79 +3,156 @@
     <link rel="stylesheet" href="msp%20task.css">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    
     <title> </title>
 </head>
     
 <body>
-    <div class="div1">
-        <img src="12642836_1247036028657852_2207151975155518273_n-0123.jpeg" height="95px" width="450px">
-    </div>
+<div class="div1">
+    <img src="12642836_1247036028657852_2207151975155518273_n-0123.jpeg" height="95px" width="450px">
+</div>
+<div class="div2">
+    <p class="p1"> Create your MSP account</p>
+    <p class="p2">Start your journey in MSP Tech Club</p>
+</div>
     
-    <div class="div2">
-        <p class="p1"> Create your MSP account</p>
-        <p class="p2">Start your journey in MSP Tech Club</p>
-    </div>
+<div class="main">
+<form method="POST" action="Thanks.html"> <br>
+
     
-    <div class="main">
-<form method="POST" action="Thanks.html">
-   <br>
- <h4>Account</h4> 
- Firsr Name
- <input type="Firsr Name" placeholder=" First Name">
+<h4>Account</h4>
+<div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input id="input_text" type="Full Name" placeholder=" Full Name">
+</div> <br>
+    
+<div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input id="input_text" type="User Name" placeholder=" User Name">
+</div> <br>
+    
+<div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input id="input_text" type="Email" placeholder="Email" height="200px">
+</div> <br>
+    
+<div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input id="input_text" type="Password" placeholder="Password">
+</div> <br>
+  
+    
+<h4>Phone Number</h4>
+<div class="input-container">
+<i class="fas fa-mobile-alt icon"></i>
+<input id="input_text" type="tel"placeholder="201*********">  
+</div>
+    
+    
+<h4>Age</h4>
+<div class="input-container">
+<i class="fas fa-user-clock icon"></i> 
+<input id="input_text" type="number" placeholder="0">  
+</div>
+  
+    
+<h4>Date of Birth</h4>
+<div class="input-container">
+<i class='far fa-calendar-alt icon'></i>
+<input id="input_text" type="date">  
+</div>
+
+<h4>Country</h4>
+<div class="input-container">
+<i class="fas fa-flag icon"></i>
+<select class="country" style="color:#D3D3D3">
+<option selected>Your Country</option>
+<option value="1">England</option>
+<option value="2">Belgium</option>
+<option value="3">Egypt</option>
+<option value="4">Canada</option>
+<option value="5">France</option>
+<option value="6">Germany</option>
+<option value="7">Greece</option>
+<option value="8">Japan</option>
+<option value="9">China</option>
+<option value="10">Netherlands</option>
+</select><br>
+</div> 
+    
+    
  
- Last Name
- <input type="Last Name" placeholder=" Last Name">
- <br><br>
- Username
- <input type="username" placeholder="Usernme">
- <br><br>
- Email
- <input type="Email" placeholder=" Email">
- <br><br>
- Password
-<input type="password" placeholder="Password">
-<br> <br>
- Phone Number 
-<input type="tel"placeholder="201*********">
- <br><br>   
- Age
- <input type="number" placeholder="20">
- <br><br>
- Gender ?    
- <br><br>
- <label class="gender">male
-   <input type="radio" checked="checked" name="radio">
-   <span class="checkmark"></span>
- </label>
+<h4>university</h4>
+<div class="input-container">
+<i class="fas fa-university icon"></i>
+<select class="university" style="color:#D3D3D3">
+<option selected>Your university</option>
+<option value="1">Cairo</option>
+<option value="2">Ain Shams</option>
+<option value="3">Helwan</option>
+</select>
+</div>
+
+
  
- <label class="gender">Female
-   <input type="radio" name="radio">
-   <span class="checkmark"></span>
- </label>
-
- <br>
- Date Of Birth
-<input type="date">
-
-<br>
-
-<h3> <details>
+<h4 style="display: inline-block;font-size: 22PX">Select your gender:</h4>
+<div style="margin-left:8px;padding-top: 30px; display: inline-block">
+<span>
+    <input type="radio" id="male" name="test" checked><label class="male" for="male">Male </label>
+  </span>
+  <span>
+    <input type="radio" id="female" name="test"><label class="female" for="female">Female </label>
+  </span>
+</div> <br>
+    
+<details>
    
-<summary id="Terms & Conditions">Terms & Conditions</summary>
-    <p > 
-    We don't sell your personal data to advertisers, and we don't share information that directly identifies you'such as your name, email address or other contact information' with advertisers unless you give us specific permission. Instead, advertisers can tell us things such as the kind of audience that they want to see their ads, and we show those ads to people who may be interested. We provide advertisers with reports about the performance of their ads that help them understand how people are interacting with their content. See Section 2 below to learn more.
+    <summary style="font-size: 17px; color:rgb(107, 170, 35);font-family: Arial, Helvetica, sans-serif " id="Terms and Conditions"><b>Terms and Conditions</b></summary>
+    <p style="color:white;font-size: 15px"  > 
+    We don't sell your personal data to advertisers, and we don't share information that directly identifies you'such as your name, email address or other contact information' with advertisers unless you give us specific permission. Instead, advertisers can tell us things such as the kind of audience that they want to see their ads, and we show those ads to people who may be interested. We provide advertisers with reports about the performance of their ads that help them understand how people are interacting with their content.
     </p>
     
-</details> </h3>
-
-<input type="checkbox" >
-I accept the <a href="#Terms & Conditions" title="Go To Terms & Conditions">Terms & Conditions</a>
-<br><br>
-   
-    <button type="reset">Reset</button> 
-    <button type="submit">Submit</button>
-    </div>
-    </form>
+</details>
     
+    <br>
+<input type="checkbox" style="display: inline"><P style="display: inline; color:#808080 " >I accept the
+    Terms and Conditions for signing up to this service, and hereby confirm I have read the privacy policy. </P>
+<br><br> 
+<input id="input_text" type="Submit" value="Submit">
+<input id="input_text" type="Reset" value="Reset">   
+</form>
+    
+    
+</div>
+    
+    <div style="background-color: rgb(0,160,210);margin-top: 107px">
+    
+    <h3 style="text-align: center;color:white;font-size: 30px;font-family:cursive" class="h">Become one of MSP members</h3>
+    <p style="font-family:cursive;text-align: center;font-size: 18px;margin-top: -20px">MSP Tech Club is one of the best student activity in Egypt</p>
+ <center>      
+     <a style="color:white;font-size: 30px;font-family: cursive;font-weight: 600;text-decoration: none" href="https://www.google.com.eg/maps/place/%D9%83%D9%84%D9%8A%D8%A9+%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA+%D9%88+%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1+%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%89+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%82%D8%A7%D9%87%D8%B1%D8%A9%E2%80%AD/@30.0313294,31.2107191,15z/data=!4m5!3m4!1s0x0:0xb2a6ce4702edc3da!8m2!3d30.0313294!4d31.2107191?hl=ar">Our Location</a></center>
+        
+        <p style="font-family:cursive;text-align: center;font-size: 18px;margin-top: 4px">5 Dr. Ahmed Zewail Street, Orman, Giza, Egypt</p>
+        
+         <h3 style="text-align: center;color: white;font-size: 30px;font-family:cursive" class="h">Contact Us</h3>
+        
+        <center>
+       <a href="https://www.facebook.com/MSPCU/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://mail.google.com/mail/u/0/#inbox" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        
+        
+        
+        </center>
+
+        
+        
+        </div>
 </body>
 </html>
+    
+    
