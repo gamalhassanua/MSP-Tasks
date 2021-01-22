@@ -93,6 +93,17 @@ form {
         color: black;
         font-size: 15px;
     }
+    
+    details > summary
+     {
+        padding: 4px;
+        width: 200px;
+        background-color: #eeeeee;
+        border: none;
+        box-shadow: 1px 1px 2px #bbbbbb;
+        cursor: pointer;
+        color: gray;
+      }
 
     button:hover
     {
