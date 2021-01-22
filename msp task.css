@@ -133,16 +133,6 @@ details > summary {
 ::placeholder{color: #D3D3D3}
 
 
-.fa:hover {
-    padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-    margin-top: -15px
-}
-
 .fa-facebook {
   background: #3B5998;
   color: white;
@@ -155,6 +145,17 @@ details > summary {
     margin-top: -15px
 }
 
+.fa-facebook:hover {
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    margin-top: -15px
+}
+
+
 .fa-twitter {
   background: #55ACEE;
   color: white;
@@ -165,6 +166,19 @@ details > summary {
   text-decoration: none;
   margin: 5px 2px;
     margin-top: -15px}
+
+.fa-twitter:hover {
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    margin-top: -15px
+}
+
+
+
 
 .fa-google {
   background: #dd4b39;
@@ -178,6 +192,19 @@ details > summary {
     margin-top: -15px
 }
 
+
+.fa-google:hover {
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    margin-top: -15px
+}
+
+
+
 .fa-linkedin {
   background: #007bb5;
   color: white;
@@ -189,3 +216,14 @@ details > summary {
   margin: 5px 2px;
     margin-top: -15px
 }
+
+.fa-linkedin:hover {
+    padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+    margin-top: -15px
+}
+
